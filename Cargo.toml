@@ -1,0 +1,19 @@
+[package]
+name = "aarcxl"
+version = "0.1.0"
+authors = ["Ronnie Chowdhury <mushfaque.chowdhury@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "aarcxl"
+crate-type = ["cdylib"]
+
+[dependencies]
+xladd = { path = "xladd" }
+failure = "0.1"
+simplelog = "^0.5"
+log = "^0.4"
+rustlearn = "^0.5"
+obj-pool = "^0.3"
+lazy_static = "^1.0"
+num_cpus = "1.0"
